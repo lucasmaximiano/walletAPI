@@ -21,7 +21,6 @@ public class User implements Serializable {
      */
     private static final long serialVersionUID = 1L;
 
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
@@ -30,8 +29,8 @@ public class User implements Serializable {
     private String name;
 
     @Column(nullable = false)
-    private String password; 
+    private String password;
 
     @Column(nullable = false)
-    private String email; 
+    private String email;
 }
